@@ -1,0 +1,1 @@
+here must be extracted Daggerfall's texture as PNG

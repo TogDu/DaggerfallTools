@@ -1,0 +1,909 @@
+$CUREVAM.QBN
+	ClassicClock _UNKNAME_000199B3_ TIMER_RANDOM 1440 4200 flags:1
+	ClassicClock _UNKNAME_00006CC3_ TIMER_RANDOM 10080 40300 flags:1
+	ClassicClock _huntstart_ TIMER_2REF_2DEST 0 0 flags:769 refs:_vamp1_ _vamp2_
+
+$CUREWER.QBN
+	ClassicClock _UNKNAME_00006CC3_ TIMER_RANDOM 10080 40300 flags:1
+	ClassicClock _huntstart_ TIMER_2REF_2DEST 0 0 flags:769 refs:_priest_ _local_
+
+00B00Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+10C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+20C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:1 refs:_mondung_ _tavern_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+	ClassicClock _UNKNAME_0006E0C3_ TIMER_RANDOM 1 4 flags:1
+
+30C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+40C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+	ClassicClock _UNKNAME_0001B38D_ TIMER_RANDOM 1440 4000 flags:1
+	ClassicClock _UNKNAME_00068071_ TIMER_RANDOM 2 30 flags:1
+
+50C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:257 refs:_qgfriend_ _mondung_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+60C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+70C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _contact_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+80C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:530 refs:_mondung_ _qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+80C0XY00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:530 refs:_mondung_ _qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+90C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+A0C00Y00.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_off_
+
+A0C00Y04.QBN
+	ClassicClock _extratime_ TIMER_SIMPLE 30 0 flags:1
+	ClassicClock _totaltime_ TIMER_1REF 129600 0 flags:17 ref:_dungeon_
+
+A0C00Y06.QBN
+	ClassicClock _escapetime_ TIMER_2REF_2DEST 0 0 flags:1 refs:_dungeon_ _hidingplace_
+	ClassicClock _shortdelay_ TIMER_SIMPLE 1 0 flags:1
+
+A0C00Y07.QBN
+	ClassicClock _oneday_ TIMER_SIMPLE 1440 0 flags:1
+
+A0C00Y08.QBN
+	ClassicClock _UNKNAME_00006A83_ TIMER_SIMPLE 10080 0 flags:1
+
+A0C00Y10.QBN
+	ClassicClock _UNKNAME_00019983_ TIMER_SIMPLE 360 0 flags:1
+	ClassicClock _UNKNAME_0001BD43_ TIMER_SIMPLE 720 0 flags:1
+	ClassicClock _UNKNAME_0001A1B4_ TIMER_SIMPLE 60 0 flags:1
+
+A0C00Y11.QBN
+	ClassicClock _questtime_ TIMER_2REF_2DEST 0 0 flags:769 refs:_healer_ _cousin_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+A0C00Y12.QBN
+	ClassicClock _UNKNAME_0000E0EC_ TIMER_SIMPLE 14400 0 flags:9
+
+A0C00Y14.QBN
+	ClassicClock _oneday_ TIMER_SIMPLE 1440 0 flags:1
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+A0C00Y15.QBN
+	ClassicClock _traveltime_ TIMER_1REF 1440 0 flags:257 ref:_pickupregion_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+A0C00Y16.QBN
+	ClassicClock _UNKNAME_0001B163_ TIMER_SIMPLE 2880 0 flags:1
+
+A0C00Y17.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:1 ref:_destination_
+	ClassicClock _extratime_ TIMER_SIMPLE 180 0 flags:1
+
+A0C01Y01.QBN
+	ClassicClock _UNKNAME_000343A8_ TIMER_SIMPLE 1620 0 flags:1
+
+A0C01Y03.QBN
+	ClassicClock _UNKNAME_00003660_ TIMER_SIMPLE 129600 0 flags:1
+
+A0C01Y06.QBN
+	ClassicClock _escapetime_ TIMER_2REF_2DEST 0 0 flags:1 refs:_dungeon_ _hidingplace_
+	ClassicClock _shortdelay_ TIMER_SIMPLE 1 0 flags:1
+	ClassicClock _UNKNAME_0001BB33_ TIMER_SIMPLE 1440 0 flags:1
+
+A0C01Y09.QBN
+	ClassicClock _questtime_ TIMER_SIMPLE 44640 0 flags:1
+	ClassicClock _shortdelay_ TIMER_SIMPLE 60 0 flags:1
+
+A0C01Y13.QBN
+	ClassicClock _UNKNAME_0001BD43_ TIMER_SIMPLE 43200 0 flags:9
+
+A0C0XY04.QBN
+	ClassicClock _extratime_ TIMER_SIMPLE 30 0 flags:1
+	ClassicClock _totaltime_ TIMER_1REF 129600 0 flags:17 ref:_dungeon_
+
+A0C10Y02.QBN
+	ClassicClock _timeforq_ TIMER_1REF 0 0 flags:273 ref:_child_
+
+A0C10Y05.QBN
+	ClassicClock _traveltime_ TIMER_2REF_2DEST 0 0 flags:1 refs:_betrothedhome_ _temple_
+
+A0C41Y18.QBN
+	ClassicClock _UNKNAME_0000D533_ TIMER_SIMPLE 1441440 0 flags:1
+
+B0B00Y00.QBN
+	ClassicClock _UNKNAME_00004F37_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+	ClassicClock _UNKNAME_000281FC_ TIMER_RANDOM 600 2400 flags:1
+
+B0B00Y01.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_qgiven_
+
+B0B10Y04.QBN
+	ClassicClock _UNKNAME_00004F37_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+	ClassicClock _2letter_ TIMER_RANDOM 50 4000 flags:1
+
+B0B20Y07.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+B0B40Y08.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+B0B40Y09.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+B0B50Y11.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+B0B60Y12.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+B0B70Y14.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+B0B70Y16.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+B0B71Y03.QBN
+	ClassicClock _finddaughter_ TIMER_1REF 0 0 flags:273 ref:_child_
+
+B0B80Y17.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+B0B81Y02.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+	ClassicClock _UNKNAME_000066B0_ TIMER_SIMPLE 260000 0 flags:1
+
+B0C00Y05.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_qgiven_
+
+B0C00Y06.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+B0C00Y10.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+B0C00Y13.QBN
+	ClassicClock _oneday_ TIMER_SIMPLE 1440 0 flags:1
+
+C0B00Y00.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_house_
+
+C0B00Y01.QBN
+	ClassicClock _queston_ TIMER_SIMPLE 38000 0 flags:1
+	ClassicClock _UNKNAME_00004C5A_ TIMER_RANDOM 3000 30000 flags:1
+	ClassicClock _UNKNAME_00000D27_ TIMER_RANDOM 200 700 flags:1
+	ClassicClock _UNKNAME_000141BA_ TIMER_RANDOM 3000 30000 flags:1
+	ClassicClock _UNKNAME_00001A80_ TIMER_RANDOM 300 700 flags:1
+
+C0B00Y02.QBN
+	ClassicClock _queston_ TIMER_1REF 7200 14400 flags:273 ref:_priest_
+
+C0B00Y03.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+C0B00Y04.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+C0B00Y14.QBN
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+	ClassicClock _qtime_ TIMER_2REF_2DEST 0 0 flags:273 refs:_priest_ _mondung_
+
+C0B10Y05.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:1 ref:_dungeon_
+
+C0B10Y06.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+C0B10Y07.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:257 ref:_priest_
+
+C0B10Y15.QBN
+	ClassicClock _qtime_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+	ClassicClock _shortdelay_ TIMER_SIMPLE 2 0 flags:1
+
+C0B20Y08.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+C0B3XY09.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+C0C00Y10.QBN
+	ClassicClock _questtime_ TIMER_2REF_2DEST 0 0 flags:769 refs:_healer_ _cousin_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+C0C00Y11.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_house_
+
+C0C00Y12.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_thiefplace_
+
+C0C00Y13.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:257 ref:_priest_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+D0B00Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+E0B00Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+F0B00Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:273 ref:_contact_
+
+G0B00Y00.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_qgiven_
+
+H0B00Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+I0B00Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:273 ref:_chemist_
+
+J0B00Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+K0C00Y00.QBN
+	ClassicClock _2storehouse_ TIMER_1REF 0 0 flags:17 ref:_storehouse_
+	ClassicClock _UNKNAME_000269FC_ TIMER_RANDOM 1000 2000 flags:1
+
+K0C00Y02.QBN
+	ClassicClock _UNKNAME_00004F37_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+K0C00Y03.QBN
+	ClassicClock _2letter_ TIMER_RANDOM 200 400 flags:1
+	ClassicClock _queston_ TIMER_2REF_2DEST 0 0 flags:513 refs:_conhouse_ _contact2_
+
+K0C00Y04.QBN
+	ClassicClock _queston_ TIMER_RANDOM 4400 8600 flags:1
+
+K0C00Y05.QBN
+	ClassicClock _queston_ TIMER_2REF_2DEST 0 0 flags:17 refs:_mondung_ _childlocale_
+	ClassicClock _UNKNAME_00009D7C_ TIMER_RANDOM 100 400 flags:1
+
+K0C00Y06.QBN
+	ClassicClock _2letter_ TIMER_RANDOM 25 50 flags:1
+	ClassicClock _queston_ TIMER_2REF_2DEST 0 0 flags:17 refs:_thiefhouse_ _mondung_
+	ClassicClock _delay_ TIMER_SIMPLE 1 0 flags:1
+
+K0C00Y07.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+	ClassicClock _2ransom_ TIMER_1REF 0 0 flags:273 ref:_kidnapper_
+
+K0C00Y08.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+K0C00Y09.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+K0C01Y00.QBN
+	ClassicClock _queston1_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+	ClassicClock _UNKNAME_0000A03C_ TIMER_RANDOM 500 5000 flags:1
+
+K0C01Y10.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+K0C0XY01.QBN
+	ClassicClock _UNKNAME_00004F37_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+	ClassicClock _UNKNAME_0001347C_ TIMER_RANDOM 1000 2000 flags:1
+	ClassicClock _UNKNAME_00002657_ TIMER_RANDOM 300 600 flags:1
+
+K0C30Y03.QBN
+	ClassicClock _queston_ TIMER_SIMPLE 30100 0 flags:1
+	ClassicClock _UNKNAME_000288BC_ TIMER_RANDOM 2000 3100 flags:1
+	ClassicClock _UNKNAME_00013875_ TIMER_RANDOM 1500 3700 flags:1
+	ClassicClock _UNKNAME_000096FC_ TIMER_RANDOM 2000 3000 flags:1
+	ClassicClock _UNKNAME_0000A03C_ TIMER_RANDOM 1000 3000 flags:9
+
+L0A01L00.QBN
+	ClassicClock _traveltime_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mansion_ _darkbmember_
+	ClassicClock _UNKNAME_00034BD0_ TIMER_1REF 0 0 flags:257 ref:_apothecary_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+L0B00Y00.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_qgiven_
+
+L0B00Y01.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+L0B00Y02.QBN
+	ClassicClock _queston_ TIMER_2REF_2DEST 0 0 flags:17 refs:_mondung_ _stronghold_
+
+L0B00Y03.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+L0B10Y01.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:18 ref:_mondung_
+	ClassicClock _2ndparton_ TIMER_RANDOM 4000 6000 flags:2
+
+L0B10Y03.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+L0B20Y02.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:18 ref:_mondung_
+
+L0B30Y03.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:18 ref:_mondung_
+
+L0B30Y09.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:18 ref:_mondung_
+
+L0B40Y04.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:18 ref:_mondung_
+
+L0B50Y11.QBN
+	ClassicClock _UNKNAME_0001BC70_ TIMER_SIMPLE 10080 5760 flags:1
+
+L0B60Y10.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:18 ref:_mondung_
+
+M0B00Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+M0B00Y06.QBN
+	ClassicClock _2dung_ TIMER_SIMPLE 1440 0 flags:1
+
+M0B00Y07.QBN
+	ClassicClock _2dung_ TIMER_1REF 1440 0 flags:17 ref:_house_
+
+M0B00Y15.QBN
+	ClassicClock _2dung_ TIMER_SIMPLE 1440 0 flags:1
+
+M0B00Y16.QBN
+	ClassicClock _qtime_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+M0B00Y17.QBN
+	ClassicClock _qtime_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+	ClassicClock _delay_ TIMER_1REF 0 0 flags:1 ref:_lovehouse_
+
+M0B11Y18.QBN
+	ClassicClock _UNKNAME_0001C6D3_ TIMER_SIMPLE 5 0 flags:1
+	ClassicClock _time1_ TIMER_1REF 0 0 flags:257 ref:_ruler_
+	ClassicClock _UNKNAME_000665B8_ TIMER_RANDOM 5000 20000 flags:1
+	ClassicClock _UNKNAME_00035BD3_ TIMER_SIMPLE 35 0 flags:1
+	ClassicClock _UNKNAME_0001B57A_ TIMER_SIMPLE 120 0 flags:1
+	ClassicClock _gettraitor_ TIMER_1REF 0 0 flags:17 ref:_stronghold_
+	ClassicClock _UNKNAME_00034273_ TIMER_SIMPLE 1 0 flags:1
+
+M0B1XY01.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+M0B20Y02.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+M0B21Y19.QBN
+	ClassicClock _qtime_ TIMER_2REF_2DEST 0 0 flags:513 refs:_victimhouse_ _darkb_
+	ClassicClock _UNKNAME_00035BD3_ TIMER_RANDOM 14400 30000 flags:1
+	ClassicClock _UNKNAME_00006EA3_ TIMER_2REF_2DEST 0 0 flags:1 refs:_daughterhouse_ _safehouse_
+
+M0B30Y03.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+M0B30Y04.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+M0B30Y08.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_house_
+
+M0B40Y05.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+M0B50Y09.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+M0B60Y10.QBN
+	ClassicClock _2dung_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+M0C00Y11.QBN
+	ClassicClock _2dung_ TIMER_SIMPLE 1440 0 flags:1
+
+M0C00Y12.QBN
+	ClassicClock _2dung_ TIMER_SIMPLE 1440 0 flags:1
+
+M0C00Y13.QBN
+	ClassicClock _2dung_ TIMER_SIMPLE 1440 0 flags:1
+
+M0C00Y14.QBN
+	ClassicClock _2dung_ TIMER_SIMPLE 1440 0 flags:1
+
+N0B00Y04.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+N0B00Y06.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+N0B00Y08.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_castle_
+
+N0B00Y09.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:273 ref:_scholar_
+	ClassicClock _UNKNAME_000096FC_ TIMER_RANDOM 100 800 flags:1
+	ClassicClock _UNKNAME_0004D53C_ TIMER_RANDOM 400 1400 flags:1
+
+N0B00Y16.QBN
+	ClassicClock _qtime_ TIMER_SIMPLE 2880 0 flags:1
+
+N0B00Y17.QBN
+	ClassicClock _time1_ TIMER_2REF_2DEST 0 0 flags:17 refs:_hintdung_ _itemdung_
+	ClassicClock _time2_ TIMER_1REF 0 0 flags:273 ref:_contact_
+
+N0B10Y01.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+N0B10Y03.QBN
+	ClassicClock _oneday_ TIMER_SIMPLE 1620 0 flags:1
+	ClassicClock _UNKNAME_000DA513_ TIMER_SIMPLE 4320 0 flags:1
+
+N0B11Y18.QBN
+	ClassicClock _qtime_ TIMER_1REF 0 0 flags:17 ref:_rebelhouse_
+	ClassicClock _UNKNAME_00001941_ TIMER_RANDOM 1 5 flags:1
+	ClassicClock _UNKNAME_00001942_ TIMER_RANDOM 1 10 flags:1
+	ClassicClock _UNKNAME_00001943_ TIMER_RANDOM 1 14 flags:1
+	ClassicClock _healer_ TIMER_RANDOM 2 18 flags:1
+
+N0B20Y02.QBN
+	ClassicClock _oneday_ TIMER_SIMPLE 1620 0 flags:1
+	ClassicClock _UNKNAME_00006CC3_ TIMER_SIMPLE 10080 0 flags:1
+	ClassicClock _UNKNAME_0001BF33_ TIMER_SIMPLE 180 0 flags:1
+
+N0B20Y05.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+N0B21Y14.QBN
+	ClassicClock _queston1_ TIMER_1REF 0 0 flags:17 ref:_oracletemple_
+	ClassicClock _queston2_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+N0B30Y15.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_palace_
+	ClassicClock _UNKNAME_0000353D_ TIMER_SIMPLE 4 20 flags:1
+	ClassicClock _UNKNAME_0000353E_ TIMER_SIMPLE 4 0 flags:1
+	ClassicClock _UNKNAME_0000353F_ TIMER_SIMPLE 4 0 flags:1
+	ClassicClock _UNKNAME_00003540_ TIMER_SIMPLE 4 0 flags:1
+
+N0B40Y07.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+N0C00Y01.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+N0C00Y10.QBN
+	ClassicClock _UNKNAME_0003665D_ TIMER_RANDOM 0 0 flags:9
+	ClassicClock _UNKNAME_0000E0EC_ TIMER_SIMPLE 14400 0 flags:9
+
+N0C00Y11.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+N0C00Y12.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+N0C00Y13.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_dungeon_
+
+O0A0AL00.QBN
+	ClassicClock _traveltime_ TIMER_SIMPLE 129601 0 flags:1
+
+O0B00Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:274 ref:_contact_
+
+O0B00Y01.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:274 ref:_contact_
+
+O0B00Y11.QBN
+	ClassicClock _time_ TIMER_1REF 0 0 flags:1 ref:_safehouse_
+	ClassicClock _UNKNAME_000038D9_ TIMER_SIMPLE 2880 0 flags:1
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+O0B00Y12.QBN
+	ClassicClock _qtime_ TIMER_2REF_2DEST 0 0 flags:769 refs:_contact1_ _contact2_
+	ClassicClock _UNKNAME_0000060A_ TIMER_RANDOM 1440 4000 flags:1
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+O0B10Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:274 ref:_contact_
+
+O0B10Y03.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_temple_
+
+O0B10Y05.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_townhouse_
+
+O0B10Y06.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_mansion_
+
+O0B10Y07.QBN
+	ClassicClock _2palace_ TIMER_1REF 0 0 flags:17 ref:_palace_
+
+O0B20Y02.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_mansion_
+
+O0B2XY04.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_mansion_
+
+O0B2XY08.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_mansion_
+
+O0B2XY09.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_mansion_
+
+O0B2XY10.QBN
+	ClassicClock _traveltime_ TIMER_1REF 0 0 flags:17 ref:_alchemyshop_
+
+P0A01L00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _tranporter_
+
+P0B00L01.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:273 ref:_pawn_
+
+P0B00L03.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _vampire_
+
+P0B00L04.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+	ClassicClock _UNKNAME_00001999_ TIMER_1REF 0 0 flags:273 ref:_vamp_
+
+P0B00L06.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+	ClassicClock _2ndparton_ TIMER_RANDOM 10 30 flags:9
+
+P0B01L02.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_itemdung_ _vampire_
+
+P0B10L07.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+P0B10L08.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+P0B10L10.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:257 ref:_vamp2_
+
+P0B20L09.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+Q0C00Y01.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_temple_
+
+Q0C00Y03.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_home_
+
+Q0C00Y04.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:1 ref:_ranger_
+
+Q0C00Y06.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+Q0C00Y07.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+Q0C00Y08.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:273 ref:_contact_
+
+Q0C0XY02.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_tavern_
+
+Q0C10Y00.QBN
+	ClassicClock _queston_ TIMER_2REF_2DEST 10000 15000 flags:17 refs:_dungeon1_ _dungeon2_
+
+Q0C20Y02.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:273 ref:_other_
+
+Q0C4XY04.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+R0C10Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:257 ref:_npc1_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:257 ref:_npc2_
+	ClassicClock _delay_ TIMER_SIMPLE 15 0 flags:1
+
+R0C10Y01.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:257 ref:_contact_
+	ClassicClock _delay_ TIMER_SIMPLE 30 0 flags:1
+
+R0C10Y02.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:257 ref:_contact_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:257 ref:_tranporter_
+
+R0C10Y04.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+R0C10Y05.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+R0C10Y06.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_itemdung_
+
+R0C10Y08.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:1 refs:_itemplace_ _off_
+	ClassicClock _2ndparton_ TIMER_2REF_FROMTO 0 0 flags:513 refs:_off_ _tranporter_
+
+R0C10Y09.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_hidingplace_ _tranporter_
+
+R0C10Y10.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:257 ref:_contact_
+
+R0C10Y11.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:257 ref:_qgfriend_
+
+R0C10Y12.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:257 ref:_contact_
+
+R0C10Y13.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:1 ref:_palace_
+	ClassicClock _delay_ TIMER_SIMPLE 20 0 flags:1
+
+R0C10Y14.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:257 ref:_contact_
+
+R0C10Y15.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:257 ref:_npc1_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:257 ref:_npc2_
+	ClassicClock _delay_ TIMER_SIMPLE 20 0 flags:1
+
+R0C10Y17.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:257 ref:_npc1_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:257 ref:_npc2_
+	ClassicClock _delay_ TIMER_RANDOM 10 30 flags:1
+
+R0C10Y18.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:257 ref:_npc1_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:257 ref:_npc2_
+
+R0C10Y20.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:273 ref:_contact_
+
+R0C10Y21.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _qgfriend_
+
+R0C11Y03.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:258 ref:_chemist_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:258 ref:_tranporter_
+
+R0C11Y16.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:257 ref:_npc1_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:257 ref:_npc2_
+
+R0C11Y19.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:273 ref:_contact_
+
+R0C11Y26.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:257 ref:_npc1_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:257 ref:_npc2_
+	ClassicClock _delay_ TIMER_RANDOM 10 30 flags:1
+
+R0C11Y27.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:257 ref:_npc1_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:257 ref:_npc2_
+	ClassicClock _delay_ TIMER_RANDOM 10 30 flags:1
+
+R0C11Y28.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:257 ref:_npc1_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:257 ref:_npc2_
+	ClassicClock _delay_ TIMER_RANDOM 10 30 flags:1
+
+R0C20Y07.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 30 0 flags:514 refs:_itemdung_ _qgfriend_
+	ClassicClock _2ndparton_ TIMER_1REF 0 0 flags:258 ref:_qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 30 0 flags:1
+
+R0C20Y22.QBN
+	ClassicClock _queston_ TIMER_2REF_2DEST 0 0 flags:770 refs:_orsinium_ _contact_
+
+R0C30Y25.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:273 ref:_contact_
+	ClassicClock _2ndparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_thievesguild_ _tranporter_
+
+R0C40Y23.QBN
+	ClassicClock _queston_ TIMER_2REF_2DEST 0 0 flags:769 refs:_oblivion_ _contact_
+
+R0C4XY23.QBN
+	ClassicClock _queston_ TIMER_2REF_2DEST 0 0 flags:769 refs:_oblivion_ _contact_
+
+R0C60Y24.QBN
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:257 ref:_contact_
+
+S0000001.QBN
+	ClassicClock _UNKNAME_00028BFC_ TIMER_RANDOM 4320 10080 flags:1
+
+S0000002.QBN
+	ClassicClock _UNKNAME_000DE747_ TIMER_SIMPLE 1000 0 flags:1
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_castfort_
+	ClassicClock _UNKNAME_0001C0AE_ TIMER_RANDOM 4320 10080 flags:1
+
+S0000003.QBN
+	ClassicClock _2shedungent_ TIMER_1REF 0 0 flags:17 ref:_huntstart_
+
+S0000004.QBN
+	ClassicClock _UNKNAME_0000095D_ TIMER_SIMPLE 43200 0 flags:1
+	ClassicClock _UNKNAME_0013EAEF_ TIMER_RANDOM 10080 20160 flags:1
+
+S0000005.QBN
+	ClassicClock _2shedungent_ TIMER_SIMPLE 216000 0 flags:1
+	ClassicClock _2letter_ TIMER_RANDOM 4000 8000 flags:1
+
+S0000006.QBN
+	ClassicClock _UNKNAME_00012DF5_ TIMER_SIMPLE 240 100 flags:1
+	ClassicClock _queston_ TIMER_1REF 0 0 flags:17 ref:_casfort_
+	ClassicClock _UNKNAME_001B3ECB_ TIMER_SIMPLE 1440 0 flags:1
+
+S0000007.QBN
+	ClassicClock _UNKNAME_00004F37_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+
+S0000008.QBN
+	ClassicClock _2letter_ TIMER_RANDOM 10080 20160 flags:1
+	ClassicClock _delay_ TIMER_SIMPLE 2 0 flags:1
+	ClassicClock _UNKNAME_0001BEB3_ TIMER_SIMPLE 527040 0 flags:1
+	ClassicClock _UNKNAME_000D1F34_ TIMER_RANDOM 10080 20160 flags:1
+	ClassicClock _UNKNAME_000D1F1B_ TIMER_RANDOM 10080 20160 flags:1
+	ClassicClock _UNKNAME_000D1F7C_ TIMER_RANDOM 4320 12960 flags:1
+	ClassicClock _UNKNAME_000D1FF5_ TIMER_RANDOM 10080 20160 flags:1
+	ClassicClock _UNKNAME_001A3FEF_ TIMER_RANDOM 4320 10080 flags:1
+	ClassicClock _UNKNAME_000D1F4D_ TIMER_RANDOM 10080 20160 flags:1
+	ClassicClock _UNKNAME_00066043_ TIMER_SIMPLE 60 0 flags:1
+
+S0000009.QBN
+	ClassicClock _UNKNAME_000271BC_ TIMER_RANDOM 10080 20160 flags:1
+	ClassicClock _UNKNAME_0000DD26_ TIMER_SIMPLE 2880 0 flags:1
+
+S0000010.QBN
+	ClassicClock _S.04_ TIMER_SIMPLE 10040 0 flags:1
+	ClassicClock _S.10_ TIMER_SIMPLE 43200 0 flags:1
+	ClassicClock _itemindung_ TIMER_1REF 0 0 flags:17 ref:_llugwych_
+
+S0000011.QBN
+	ClassicClock _UNKNAME_00068563_ TIMER_SIMPLE 8641 0 flags:1
+	ClassicClock _UNKNAME_00096CFC_ TIMER_SIMPLE 10080 14400 flags:1
+	ClassicClock _UNKNAME_000A02BD_ TIMER_1REF 0 0 flags:17 ref:_scourgbarrow_
+	ClassicClock _UNKNAME_0001A175_ TIMER_SIMPLE 216000 0 flags:1
+
+S0000012.QBN
+	ClassicClock _2palace_ TIMER_1REF 0 0 flags:1 ref:_palace_
+	ClassicClock _UNKNAME_001AF3BD_ TIMER_SIMPLE 2880 0 flags:1
+
+S0000013.QBN
+	ClassicClock _2myndung_ TIMER_1REF 0 0 flags:17 ref:_myndung_
+	ClassicClock _UNKNAME_0001C326_ TIMER_RANDOM 14400 28800 flags:1
+
+S0000015.QBN
+
+S0000016.QBN
+	ClassicClock _delay_ TIMER_SIMPLE 1 0 flags:1
+
+S0000017.QBN
+	ClassicClock _2letter_ TIMER_RANDOM 10080 20160 flags:1
+
+S0000018.QBN
+	ClassicClock _delay_ TIMER_SIMPLE 2 0 flags:1
+	ClassicClock _UNKNAME_000018D8_ TIMER_SIMPLE 2 0 flags:1
+	ClassicClock _UNKNAME_00035FB2_ TIMER_SIMPLE 43200 0 flags:1
+
+S0000020.QBN
+
+S0000021.QBN
+
+S0000022.QBN
+	ClassicClock _UNKNAME_00006CF0_ TIMER_SIMPLE 30000 0 flags:1
+
+S0000100.QBN
+	ClassicClock _UNKNAME_000DA06C_ TIMER_SIMPLE 75 0 flags:1
+	ClassicClock _UNKNAME_00006A20_ TIMER_SIMPLE 640000 0 flags:1
+
+S0000101.QBN
+	ClassicClock _UNKNAME_000DA06C_ TIMER_SIMPLE 75 0 flags:1
+	ClassicClock _UNKNAME_00006A20_ TIMER_SIMPLE 640000 0 flags:1
+
+S0000102.QBN
+	ClassicClock _UNKNAME_000DA06C_ TIMER_SIMPLE 75 0 flags:1
+	ClassicClock _UNKNAME_00006A20_ TIMER_SIMPLE 640000 0 flags:1
+
+S0000103.QBN
+	ClassicClock _UNKNAME_000DA06C_ TIMER_SIMPLE 75 0 flags:1
+	ClassicClock _UNKNAME_00006A20_ TIMER_SIMPLE 640000 0 flags:1
+
+S0000104.QBN
+	ClassicClock _UNKNAME_000DA06C_ TIMER_SIMPLE 75 0 flags:1
+	ClassicClock _UNKNAME_00006A20_ TIMER_SIMPLE 64000 0 flags:1
+
+S0000106.QBN
+
+S0000107.QBN
+
+S0000500.QBN
+	ClassicClock _UNKNAME_0001C1D3_ TIMER_RANDOM 45000 135000 flags:1
+	ClassicClock _executiondelay_ TIMER_1REF 0 0 flags:1 ref:_sentinel_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+	ClassicClock _escapetime_ TIMER_1REF 0 0 flags:1 ref:_safehouse_
+
+S0000501.QBN
+	ClassicClock _UNKNAME_00035BD3_ TIMER_RANDOM 45000 135000 flags:1
+	ClassicClock _time1_ TIMER_1REF 0 0 flags:257 ref:_queen_
+	ClassicClock _time2_ TIMER_1REF 0 0 flags:17 ref:_wayrest_
+
+S0000502.QBN
+	ClassicClock _UNKNAME_0001C1D3_ TIMER_RANDOM 45000 135000 flags:1
+	ClassicClock _UNKNAME_0001C393_ TIMER_1REF 0 0 flags:1 ref:_tavern_
+	ClassicClock _towertime_ TIMER_SIMPLE 45000 0 flags:1
+	ClassicClock _UNKNAME_000342F3_ TIMER_SIMPLE 1 0 flags:1
+
+S0000503.QBN
+	ClassicClock _UNKNAME_0001C1D3_ TIMER_RANDOM 90000 140000 flags:1
+	ClassicClock _UNKNAME_0001C393_ TIMER_1REF 0 0 flags:1 ref:_tavern_
+	ClassicClock _UNKNAME_00006B23_ TIMER_1REF 0 0 flags:1 ref:_magesguild_
+	ClassicClock _UNKNAME_0001A173_ TIMER_SIMPLE 4 0 flags:1
+	ClassicClock _keytime_ TIMER_2REF_2DEST 0 0 flags:1 refs:_keydung_ _tavern_
+	ClassicClock _UNKNAME_00003572_ TIMER_SIMPLE 10000 0 flags:1
+	ClassicClock _UNKNAME_00006B73_ TIMER_1REF 0 0 flags:17 ref:_itemdung_
+
+S0000977.QBN
+	ClassicClock _delay_ TIMER_RANDOM 4 15 flags:12
+	ClassicClock _UNKNAME_0000DB1C_ TIMER_SIMPLE 1 0 flags:9
+
+S0000988.QBN
+	ClassicClock _delay_ TIMER_SIMPLE 1440 0 flags:1
+
+S0000999.QBN
+	ClassicClock _UNKNAME_001C3A54_ TIMER_RANDOM 0 0 flags:9
+
+T0C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+U0C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_mondung_ _qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+	ClassicClock _escapetime_ TIMER_2REF_FROMTO 0 0 flags:513 refs:_mondung_ _mfriend_
+
+V0C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:1 refs:_mondung_ _tavern_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+W0C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_palace_ _contact_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+X0C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_1REF 0 0 flags:17 ref:_mondung_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+Y0C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:1 refs:_mondung_ _tavern_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+Z0C00Y00.QBN
+	ClassicClock _1stparton_ TIMER_2REF_2DEST 0 0 flags:513 refs:_palace_ _qgfriend_
+	ClassicClock _delay_ TIMER_SIMPLE 60 0 flags:1
+
+_BRISIEN.QBN
+	ClassicClock _UNKNAME_0004DCFC_ TIMER_RANDOM 10080 20160 flags:1
+	ClassicClock _UNKNAME_0009EB7C_ TIMER_SIMPLE 43200 0 flags:1
+	ClassicClock _UNKNAME_00009BAE_ TIMER_SIMPLE 20160 0 flags:1
+	ClassicClock _oneday_ TIMER_SIMPLE 1440 0 flags:1
+	ClassicClock _UNKNAME_0006B98D_ TIMER_SIMPLE 42300 0 flags:1
+
+_TUTOR__.QBN
+	ClassicClock _UNKNAME_0000D7B9_ TIMER_SIMPLE 6 0 flags:1
+	ClassicClock _UNKNAME_0000D20C_ TIMER_SIMPLE 8 0 flags:1
+	ClassicClock _UNKNAME_0000D37E_ TIMER_SIMPLE 24 0 flags:1
+	ClassicClock _UNKNAME_0001C7CC_ TIMER_SIMPLE 12 0 flags:1
+	ClassicClock _UNKNAME_000349E5_ TIMER_SIMPLE 6 0 flags:1
+	ClassicClock _UNKNAME_00034712_ TIMER_SIMPLE 20160 0 flags:1
+	ClassicClock _day1_ TIMER_SIMPLE 1440 0 flags:1
+	ClassicClock _day2_ TIMER_SIMPLE 1440 0 flags:1
+	ClassicClock _2dagger_ TIMER_SIMPLE 10000 0 flags:1
+

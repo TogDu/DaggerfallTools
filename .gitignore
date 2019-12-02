@@ -1,0 +1,4 @@
+**/*.pyc
+
+media/**/*.PNG
+media/**/*.3d
